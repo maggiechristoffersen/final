@@ -1,0 +1,158 @@
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fbebb4;
+  color: #795c65;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #4CBBEB;
+  margin-top: 10px;
+}
+
+.to-do-list-header {
+  background: #f7421e;
+  color: #4CBBEB;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 120%;
+  margin-bottom: 10px;
+  color: #4CBBEB;
+}
+
+p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+ol {
+  list-style: none
+}
+
+input {
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.to-do-list {
+ display: flex;
+ justify-content: flex-end;
+ align-items: flex-start;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  background: #f7421e;
+}
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #4cbbeb;
+  border: none;
+  border-radius: 2px;
+  color: #fbebb4;
+  font-size: 100%;
+}
+
+.card-container {
+  margin-top: none;
+}
+
+
+.banner {
+  margin: 0px auto;
+}
+
+.resources {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.topnav{
+  display: flex;
+  justify-content: space-around;
+  background-color: #795c65;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: solid blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #e3bb94;
+}
+
+.topnav a:hover {
+  background-color: #fbebb4;
+  color: #4cbbeb;
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+}
+
+#study {
+  display: flex;
+  flex-direction: row;
+}
+
+#header {
+  background: #f7421e;
+}
+
+#headerimg {
+  object-fit: cover;
+  width: 1440px;
+}
+
+.calender {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+.study-widget {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateinfo {
+  margin-top: 12px;
+  margin-left: 30px;
+
+.calendar-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
