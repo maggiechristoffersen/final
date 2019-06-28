@@ -156,3 +156,7 @@ input {
   flex-direction: column;
   align-items: center;
 }
+  
+.resourceh1 {
+  color: #fcbbeb;
+  }
